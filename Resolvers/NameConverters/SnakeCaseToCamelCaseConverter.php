@@ -1,6 +1,6 @@
 <?php
 
-namespace CTDNikiru\DtoRequestResolver\NameConverters;
+namespace CTDNikiru\DtoRequestResolver\Resolvers\NameConverters;
 
 use Symfony\Component\Serializer\NameConverter\NameConverterInterface;
 

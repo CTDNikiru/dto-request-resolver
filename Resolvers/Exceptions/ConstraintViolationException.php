@@ -1,6 +1,6 @@
 <?php
 
-namespace CTDNikiru\DtoRequestResolver\Exceptions;
+namespace CTDNikiru\DtoRequestResolver\Resolvers\Exceptions;
 
 use Exception;
 use Symfony\Component\Validator\ConstraintViolationListInterface;

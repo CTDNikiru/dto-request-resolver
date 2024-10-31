@@ -1,6 +1,6 @@
 <?php
 
-namespace CTDNikiru\DtoRequestResolver;
+namespace CTDNikiru\DtoRequestResolver\Resolvers;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Serializer\Exception\PartialDenormalizationException;
@@ -15,8 +15,8 @@ use Symfony\Component\PropertyInfo\Extractor\PhpDocExtractor;
 use Symfony\Component\PropertyInfo\Extractor\ReflectionExtractor;
 use Symfony\Component\PropertyInfo\PropertyInfoExtractor;
 use Symfony\Component\Serializer\Normalizer\ArrayDenormalizer;
-use CTDNikiru\DtoRequestResolver\Exceptions\ConstraintViolationException;
-use CTDNikiru\DtoRequestResolver\NameConverters\SnakeCaseToCamelCaseConverter;
+use CTDNikiru\DtoRequestResolver\Resolvers\Exceptions\ConstraintViolationException;
+use CTDNikiru\DtoRequestResolver\Resolvers\NameConverters\SnakeCaseToCamelCaseConverter;
 use Symfony\Component\HttpKernel\Controller\ValueResolverInterface;
 use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
 

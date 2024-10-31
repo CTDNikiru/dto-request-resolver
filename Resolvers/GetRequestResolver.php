@@ -1,6 +1,6 @@
 <?php
 
-namespace CTDNikiru\DtoRequestResolver;
+namespace CTDNikiru\DtoRequestResolver\Resolvers;
 
 use Symfony\Component\HttpFoundation\Request;
 use Exception;
